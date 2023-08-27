@@ -1,0 +1,139 @@
+{
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 24,
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "cxxBuildFolder": "\\\\Mac\\Home\\Downloads\\ovr_openxr_mobile_sdk_55.0\\XrSamples\\XrHandsFB\\Projects\\Android\\.cxx\\ndkBuild\\release\\arm64-v8a",
+  "info": {
+    "abi": "ARM64_V8A",
+    "bitness": 64,
+    "deprecated": false,
+    "default": true
+  },
+  "originalCxxBuildFolder": "\\\\Mac\\Home\\Downloads\\ovr_openxr_mobile_sdk_55.0\\XrSamples\\XrHandsFB\\Projects\\Android\\.cxx\\ndkBuild\\release\\arm64-v8a",
+  "variant": {
+    "buildSystemArgumentList": [
+      "V\u003d0",
+      "-j4",
+      "-C\\\\Mac\\Home\\Downloads\\ovr_openxr_mobile_sdk_55.0\\XrSamples\\XrHandsFB\\Projects\\Android",
+      "APP_PLATFORM\u003dandroid-24",
+      "NDK_TOOLCHAIN_VERSION\u003dclang",
+      "APP_STL\u003dc++_static",
+      "NDK_DEBUG\u003d0",
+      "OVR_DEBUG\u003d0",
+      "USE_ASAN\u003d0"
+    ],
+    "buildTargetSet": [],
+    "cFlagsList": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "cppFlagsList": [],
+    "isDebuggableEnabled": false,
+    "module": {
+      "buildSystem": "NDK_BUILD",
+      "cmakeToolchainFile": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\build\\cmake\\android.toolchain.cmake",
+      "cxxFolder": "\\\\Mac\\Home\\Downloads\\ovr_openxr_mobile_sdk_55.0\\XrSamples\\XrHandsFB\\Projects\\Android\\.cxx",
+      "gradleModulePathName": ":XrSamples:XrHandsFB:Projects:Android",
+      "intermediatesFolder": "\\\\Mac\\Home\\Downloads\\ovr_openxr_mobile_sdk_55.0\\XrSamples\\XrHandsFB\\Projects\\Android\\build\\intermediates",
+      "makeFile": "\\\\Mac\\Home\\Downloads\\ovr_openxr_mobile_sdk_55.0\\XrSamples\\XrHandsFB\\Projects\\Android\\jni\\Android.mk",
+      "moduleBuildFile": "\\\\Mac\\Home\\Downloads\\ovr_openxr_mobile_sdk_55.0\\XrSamples\\XrHandsFB\\Projects\\Android\\build.gradle",
+      "moduleRootFolder": "\\\\Mac\\Home\\Downloads\\ovr_openxr_mobile_sdk_55.0\\XrSamples\\XrHandsFB\\Projects\\Android",
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkFolder": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393",
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "ndkMetaPlatforms": {
+        "min": 19,
+        "max": 33,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30,
+          "S": 31,
+          "Sv2": 32,
+          "Tiramisu": 33
+        }
+      },
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "SYSTEM",
+      "ndkVersion": "25.1.8937393",
+      "project": {
+        "compilerSettingsCacheFolder": "\\\\Mac\\Home\\Downloads\\ovr_openxr_mobile_sdk_55.0\\.cxx",
+        "cxxFolder": "\\\\Mac\\Home\\Downloads\\ovr_openxr_mobile_sdk_55.0\\.cxx",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isNativeCompilerSettingsCacheEnabled": false,
+        "rootBuildGradleFolder": "\\\\Mac\\Home\\Downloads\\ovr_openxr_mobile_sdk_55.0",
+        "sdkFolder": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk",
+        "isPrefabEnabled": false
+      },
+      "splitsAbiFilterSet": [],
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
+          "ARM64_V8A": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
+          "X86": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
+          "X86_64": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      }
+    },
+    "objFolder": "\\\\Mac\\Home\\Downloads\\ovr_openxr_mobile_sdk_55.0\\XrSamples\\XrHandsFB\\Projects\\Android\\build\\intermediates\\ndkBuild\\release\\obj\\local",
+    "variantName": "release",
+    "validAbiList": [
+      "ARM64_V8A"
+    ],
+    "prefabDirectory": "\\\\Mac\\Home\\Downloads\\ovr_openxr_mobile_sdk_55.0\\XrSamples\\XrHandsFB\\Projects\\Android\\.cxx\\ndkBuild\\release\\prefab",
+    "prefabPackageDirectoryList": []
+  },
+  "prefabFolder": "\\\\Mac\\Home\\Downloads\\ovr_openxr_mobile_sdk_55.0\\XrSamples\\XrHandsFB\\Projects\\Android\\.cxx\\ndkBuild\\release\\prefab\\arm64-v8a"
+}

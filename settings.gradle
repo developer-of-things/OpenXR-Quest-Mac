@@ -1,0 +1,29 @@
+
+rootProject.projectDir = new File(settingsDir, '.')
+rootProject.name = "OculusRoot"
+
+include ':', \
+	'XrSamples:XrAppBase:Projects:Android', \
+	'XrSamples:XrBodyFaceEyeSocial:Projects:Android', \
+	':XrSamples:XrBodyTrackingFB:Projects:Android', \
+	':XrSamples:XrColorSpaceFB:Projects:Android', \
+	':XrSamples:XrCompositor_NativeActivity:Projects:Android', \
+	'XrSamples:XrControllers:Projects:Android', \
+	'XrSamples:XrEyeTrackingSocialFB:Projects:Android', \
+	'XrSamples:XrFaceTrackingFB:Projects:Android', \
+	':XrSamples:XrHandsFB:Projects:Android', \
+	':XrSamples:XrInput:Projects:Android', \
+	':XrSamples:XrKeyboard:Projects:Android', \
+	'XrSamples:XrPassThrough:Projects:Android', \
+	':XrSamples:XrSceneModel:Projects:Android', \
+	':XrSamples:XrSpaceWarp:Projects:Android', \
+	':XrSamples:XrSpatialAnchor:Projects:Android', \
+	'XrSamples:XrVirtualKeyboard:Projects:Android', \
+	'XrSamples:XrSpaceWarp:Projects:Android', \
+	'XrSamples:XrSpatialAnchor:Projects:Android', \
+	'XrSamples:XrSceneModel:Projects:Android'
+ 	
+	
+
+
+// Top level settings
